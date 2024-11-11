@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/abz.agency/static/css/main.c14eb365.css",
+    "main.js": "/abz.agency/static/js/main.8cbb8df9.js",
+    "static/media/banner-lg.webp": "/abz.agency/static/media/banner-lg.54eb02d44898507b22ea.webp",
+    "static/media/banner-xl.webp": "/abz.agency/static/media/banner-xl.755f7e9660fab424998e.webp",
+    "static/media/banner-md.webp": "/abz.agency/static/media/banner-md.58dfdc285194b482c7e7.webp",
+    "static/media/banner-sm.webp": "/abz.agency/static/media/banner-sm.0e56238dfc49cc527dbe.webp",
+    "static/media/success-image.svg": "/abz.agency/static/media/success-image.0d3202ba11b04fa7364b0f83ce42aea5.svg",
+    "static/media/Logo.svg": "/abz.agency/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/abz.agency/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "static/media/preloader.svg": "/abz.agency/static/media/preloader.0aaf07f39acaa32ce036564ce35dba88.svg",
+    "index.html": "/abz.agency/index.html",
+    "main.c14eb365.css.map": "/abz.agency/static/css/main.c14eb365.css.map",
+    "main.8cbb8df9.js.map": "/abz.agency/static/js/main.8cbb8df9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c14eb365.css",
+    "static/js/main.8cbb8df9.js"
+  ]
+}
