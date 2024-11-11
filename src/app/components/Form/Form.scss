@@ -1,0 +1,8 @@
+@use '../../assets/css/utils' as *;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}

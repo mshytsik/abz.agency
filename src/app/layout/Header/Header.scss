@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    z-index: 100;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 104px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+@use '../../../assets/css/utils' as *;
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 80px;
+    border-width: 0;
+    background-color: $color-primary;
+    font-size: 16px;
+    line-height: 26px;
+    color: $color-black-87;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-primary-alt;
+    }
+
+    &--sm {
+        min-width: 100px;
+    }
+
+    &--md {
+        min-width: 120px;
+    }
+
+    &[disabled] {
+        background-color: #b4b4b4;
+        color: rgba(255, 255, 255, 0.87);
+    }
+}

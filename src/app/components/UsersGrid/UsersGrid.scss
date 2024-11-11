@@ -1,0 +1,30 @@
+@use '../../assets/css/utils' as *;
+
+.users-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+
+        @include is-screen-min($breakpoint-md) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        @include is-screen-min($breakpoint-lg) {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .user-card {
+            min-width: 0;
+        }
+    }
+}

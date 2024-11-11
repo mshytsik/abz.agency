@@ -1,0 +1,60 @@
+@use '../../../../assets/css/utils' as *;
+
+.form-radio {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+
+    input {
+        position: absolute;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        pointer-events: none;
+
+        &:checked {
+            & ~ .form-radio {
+                &__icon {
+                    border-color: $color-secondary;
+
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    &__icon {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #d0cfcf;
+        border-radius: 50%;
+        transition: border-color 0.3s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: $color-secondary;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+    }
+
+    &:hover {
+        .form-radio {
+            &__icon {
+                border-color: $color-secondary;
+            }
+        }
+    }
+}

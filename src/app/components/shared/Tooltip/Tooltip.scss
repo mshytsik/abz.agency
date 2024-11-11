@@ -1,0 +1,37 @@
+@use '../../../assets/css/utils' as *;
+
+.tooltip {
+    position: relative;
+    max-width: 100%;
+
+    &__content {
+        & > * {
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+    &__value {
+        position: absolute;
+        // top: calc(100% + 21px);
+        // left: 77px;
+        padding: 3px 16px;
+        border-radius: 4px;
+        background-color: $color-black-87;
+        color: #ffffff;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        z-index: 30;
+
+        &.tip {
+            &-enter-active,
+            &-enter-done {
+                opacity: 1;
+            }
+        }
+    }
+}

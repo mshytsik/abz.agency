@@ -1,0 +1,16 @@
+@use '../../../../assets/css/utils' as *;
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: -7px 0 -3px;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+    }
+}
